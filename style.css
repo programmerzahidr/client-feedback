@@ -1,0 +1,93 @@
+/* google font */
+/* font-family: 'Poiret One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+/* end of google font */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poiret One', cursive;
+}
+body{
+    background-color: #EDF2F8;
+}
+.client-feedback{
+    width: 1200px;
+    height: 550px;
+    margin: 30px auto;
+    position: relative;
+}
+.feedback-one{
+    width: 450px;
+    height: 250px;
+    padding: 15px 30px;
+    background: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 80% 1%;
+    background-color: #733FC8;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    border-radius: 10px;
+}
+.client-img{
+    display: flex;
+}
+.client-img .client-imgtxt{
+    padding: 10px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.client-img img{
+    border: 2px solid #8554d4;
+    border-radius: 50%;
+}
+.client-opinion{
+    text-align: justify;
+}
+.feedback-two{
+    width: 250px;
+    height: 250px;
+    padding: 15px 30px;
+    background-color: #49556B;
+    color: #fff;
+    position: absolute;
+    left: 535px;
+    top: 0px;
+    border-radius: 10px;
+}
+.feedback-three{
+    width: 270px;
+    height: 520px;
+    padding: 15px 30px;
+    background-color: #ac9999;
+    color: #fff;
+    position: absolute;
+    left: 860px;
+    top: 0px;
+    border-radius: 10px;
+}
+.feedback-four{
+    width: 250px;
+    height: 220px;
+    padding: 15px 30px;
+    background-color: #344f72;
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    top: 300px;
+    border-radius: 10px;
+}
+.feedback-five{
+    width: 450px;
+    height: 220px;
+    padding: 15px 30px;
+    position: absolute;
+    top: 300px;
+    left: 335px;
+    background-color: #18202D;
+    color: #fff;
+    border-radius: 10px;
+}
+
